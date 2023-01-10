@@ -1,0 +1,62 @@
+    /* ===== Navbar ===== */ 
+    .header {
+    width: 100%;
+    padding-top: 29px;
+    padding-bottom: 34px;
+}
+.navbar {
+    align-items: stretch;
+    display: flex;
+    position: relative;
+    height: 62px;
+}
+.navbar-brand .logo {
+    width: 49px;
+    height: 62px;
+}
+.navbar-brand {
+    align-items: stretch;
+    display: flex;
+    flex-shrink: 0;
+}
+.navbar,
+.navbar-end,
+.navbar-menu,
+.navbar-start {
+    align-items: stretch;
+    display: flex;
+}
+.navbar-menu {
+    flex-grow: 1;
+    flex-shrink: 0;
+}
+.navbar-end {
+    justify-content: flex-end;
+    margin-left: auto;
+    align-items: center;
+}
+.navbar-item,
+.navbar-link {
+    align-items: center;
+    display: flex;
+    font-weight: $w-500;
+    font-size: $font-size-md;
+    line-height: 14px;
+}
+.navbar-item {
+    flex-grow: 0;
+    flex-shrink: 0;
+}
+.navbar-link,
+a.navbar-item {
+    cursor: pointer;
+    text-decoration: none;
+}
+.navbar-item,
+.navbar-link {
+    color: #4a4a4a;
+    position: relative;
+    margin: 0 16px;
+}
+
+    /* ===== END ===== */
